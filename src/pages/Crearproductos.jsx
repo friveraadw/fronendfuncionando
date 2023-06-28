@@ -29,9 +29,9 @@ const CrearProducto = () => {
   };
 
   return (
-    
+    <><TopNav />  
     <div className='fondo'>
-    <TopNav />  
+    
     <div className="crearproductos">
       <h2>Crear Productos</h2>
       <Form>
@@ -67,6 +67,7 @@ const CrearProducto = () => {
       </Form>
     </div>
     </div>
+    </>
   );
 };
 
