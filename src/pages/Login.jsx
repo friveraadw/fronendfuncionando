@@ -27,7 +27,7 @@ const Login = () => {
         console.log('Token:', token);
 
         if (email === 'fabian@adwise.cl') {
-          navigate('https://frontend-ecommerce-gamma.vercel.app/crear-productos-administrador');
+          navigate('/crear-productos-administrador');
         } else {
           navigate('/');
         }
